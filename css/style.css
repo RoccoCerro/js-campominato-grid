@@ -39,6 +39,14 @@
     border: 1px solid black;
 }
 
+.size-medium{
+    width: calc(100% / 9);
+}
+
+.size-easy{
+    width: calc(100% / 7);
+}
+
 .bg-sky-blue{
     background-color: var(--bg-cell-selected);
 }
