@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-header{
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+
+    & div:last-child{
+        margin-left: auto;
+    }
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.grid-section{
+    background-color: #7FFFD4
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell{
+    width: calc(100% / 10);
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+}
+
+.page-footer{
+    padding: 15px 10px;
+}
