@@ -8,13 +8,29 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+}
+
 .page-header{
     padding: 15px 10px;
     display: flex;
     align-items: center;
 
+    & img{
+        width: 50px;
+    }
+
     & div:last-child{
         margin-left: auto;
+    }
+
+    & .col-button button{
+        width: 70px;
+    }
+
+    & .col-button select{
+        width: 130px;
     }
 }
 
@@ -37,6 +53,9 @@
     width: calc(100% / 10);
     aspect-ratio: 1/1;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .size-medium{
