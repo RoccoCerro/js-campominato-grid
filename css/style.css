@@ -1,3 +1,7 @@
+:root{
+    --bg-cell-selected: #2A8EFF;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -32,6 +36,10 @@
     width: calc(100% / 10);
     aspect-ratio: 1/1;
     border: 1px solid black;
+}
+
+.bg-sky-blue{
+    background-color: var(--bg-cell-selected);
 }
 
 .page-footer{

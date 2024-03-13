@@ -13,7 +13,10 @@ buttonDomEl.addEventListener("click", function(){
     
         gridDomEl.append(cellEl);
     
-    
+        cellEl.addEventListener("click", function(){
+            console.log(num);
+            cellEl.classList.toggle("bg-sky-blue")
+        })
     }
 
 })
