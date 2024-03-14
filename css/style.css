@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 img{
@@ -50,7 +51,7 @@ img{
 }
 
 .cell{
-    width: calc(100% / 10);
+    width: calc(100% / 7);
     aspect-ratio: 1/1;
     border: 1px solid black;
     display: flex;
@@ -62,8 +63,8 @@ img{
     width: calc(100% / 9);
 }
 
-.size-easy{
-    width: calc(100% / 7);
+.size-hard{
+    width: calc(100% / 10);
 }
 
 .bg-sky-blue{
